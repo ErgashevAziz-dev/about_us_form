@@ -13,3 +13,6 @@ This is a simple Django project that allows users to fill out a registration for
 - Django
 - PostgreSQL
 - HTML + Django Templates
+
+### 📝 Registration Form
+![Registration Form](screenshots/img.png)
