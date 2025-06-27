@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<h1>Person</h1>
+<ol style="margin-bottom: 25px;">
+    {% for person in people %}
+      <li>{{ person.first_name }} - {{ person.last_name }} - {{ person.email }} </li>
+    {% empty %}
+      <li>hozircha malumotlar yo'q</li>
+    {% endfor %}
+  </ol>
+<a href="/" style="text-decoration:none; font-size: 20px; color: white; background-color: blue; border-radius: 5px; padding: 5px 15px;">ortga</a>
+
+</body>
+</html>
